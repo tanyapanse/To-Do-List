@@ -1,9 +1,11 @@
 # To-Do-List
 
 📝 To-Do List
+
 A simple to-do list designed to help users increase productivity. ✨
 
 Features:
+
 ✏️ Add items 
 ✔️ Check off items 
 🗑️ Clear checked items 
