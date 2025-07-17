@@ -1,4 +1,4 @@
-# To-Do-List
+# To-Do-List (Web Application)
 
 📝 A simple to-do list designed to help users increase productivity. ✨
 
