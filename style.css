@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("Pixellari.ttf") format("truetype");
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+  background-color: #fff1f4;
+  color: #fe708e;
+  margin: 20px;
+}
+
+.task {
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 10px;
+  background-color: #d3d596;
+  border-radius: 20px;
+  text-align: left;
+  align-items: center;
+}
+
+#newTask {
+  padding: 10px;
+  width: 210px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: #d3d596;
+  font-family: "MyFont", sans-serif;
+}
+
+h3 {
+  color: #ff5b7e;
+}
+
+.xbtn {
+  width: 10px;
+}
+
+#addBtn {
+  width: 90px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date-box {
+  width: 100px;
+  height: 100px;
+  background-color: #d3d596; /* Light blue */
+  color: white;
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffafc0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.date-box div {
+  margin: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.progress-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 180px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #d3d596; /* Green */
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+#progress-label {
+  margin-top: 5px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 14px;
+  color: #fe708e;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="top">
+    <div class="row">
+      <div class="date-box">
+        <div id="dayName"></div>
+        <div id="dayNumber"></div>
+        <div id="monthName"></div>
+      </div>
+<div class="progress-box">
+  <h2>Progress:</h2>
+  <div class="progress-bar">
+    <div class="progress-fill" style="width: 0%"></div>
+  </div>
+  <div id="progress-label">0 / 0 tasks done</div>
+</div>
+    </div>
+    <form>
+      <input id="newTask" type="text" placeholder="Input your task!" />
+      <input id="addBtn" type="image" src="addTask.png">
+    </form>
+    <h3 class="task-header">My Tasks</h3>
+    <div class="tasks">
+      <!--insert tasks here-->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
